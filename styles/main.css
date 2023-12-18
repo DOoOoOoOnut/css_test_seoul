@@ -1,0 +1,65 @@
+/* 메인 */
+main {width: 1151px; margin: 0 auto;}
+main .top_wrap {
+    display: flex;
+}
+/* 왼쪽 큰 배너 */
+main .top_wrap .bnr {
+    position: relative;
+    margin-right: 21px;
+}
+main .top_wrap .bnr a {}
+main .top_wrap .bnr a img {}
+main .top_wrap .bnr .btn_close {
+    position: absolute; right: 15px; bottom: 15px;
+    background-color: #1e6cb3; color: #fff;
+    padding: 5px 9px; border-radius: 5px;
+    font-size: 0.8125rem;
+}
+/* 오른쪽 */
+/* 코로나 19 현황 */
+main .top_wrap .corona_traffic {}
+main .top_wrap .corona_traffic .corona {
+    /* border: 2px solid; */
+    width: 360px; margin-bottom: 10px;
+}
+main .top_wrap .corona_traffic .corona a {
+    position: relative; 
+    width: 100%;
+    display: block;
+}
+main .top_wrap .corona_traffic .corona a img {
+    width: 100%;
+}
+main .top_wrap .corona_traffic .corona a span {
+    position: absolute; text-align: center; 
+    color: #fff; font-size: 0.8125rem;
+}
+main .top_wrap .corona_traffic .corona a span:nth-child(2) {
+    color: #000;
+    right: 20px; top: 14px;
+}
+main .top_wrap .corona_traffic .corona a span:nth-child(3) {
+    width: 140px;
+    left: 30px; top: 84px;
+}
+main .top_wrap .corona_traffic .corona a span:nth-child(4) {
+    width: 140px;
+    right: 29px; top: 84px;
+}
+main .top_wrap .corona_traffic .corona a span:nth-child(5) {
+    width: 94px;
+    left: 30px; bottom: 59px;
+}
+main .top_wrap .corona_traffic .corona a span:nth-child(6) {
+    width: 94px;
+    right: 121px; bottom: 59px;
+}
+main .top_wrap .corona_traffic .corona a span:nth-child(7) {
+    width: 59px;
+    right: 32px; bottom: 59px;
+}
+/* 실시간 교통정보 */
+main .top_wrap .corona_traffic .traffic {}
+main .top_wrap .corona_traffic .traffic a {}
+main .top_wrap .corona_traffic .traffic a img {}

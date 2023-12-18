@@ -1,0 +1,65 @@
+/* 헤더 */
+header {
+    width: 1151px; margin: 0 auto;
+}
+/* 1행 네비 */
+header nav {
+    display: flex; justify-content: space-between;
+    align-items: center;
+    height: 48px;
+}
+header nav .left {
+    display: flex; align-items: center;
+}
+header nav .left h1 {margin-right: 18px;}
+header nav .left h1 a {}
+header nav .left h1 a img {}
+header nav .left > a {margin-right: 16px; font-size: 0.875rem;}
+header nav .left > a:last-child {margin-right: 0;}
+header nav .right {}
+header nav .right a {margin-left: 16px; font-size: 0.875rem;}
+header nav .right a:first-child {margin-left: 0;}
+/* 2행 */
+header #title_frm {}
+header #title_frm fieldset {
+    height: 119px;
+    display: flex; justify-content: space-between; 
+    align-items: center;
+}
+/* 2행 로고 */
+header #title_frm fieldset h1 {}
+header #title_frm fieldset h1 a {}
+header #title_frm fieldset h1 a img {}
+/* 2행 검색 */
+header #title_frm fieldset .search_frm {
+    width: 370px; padding: 14px;
+    border: 3px solid #1e6cb3; background-color: #fff;
+    display: flex; justify-content: space-between;
+}
+header #title_frm fieldset .search_frm .search {}
+header #title_frm fieldset .search_frm .search::placeholder {font-size: 0.875rem; color: #1e6cb3;}
+header #title_frm fieldset .search_frm .btn_search {}
+header #title_frm fieldset .search_frm .btn_search img {}
+/* 2행 언어설정, 날씨 */
+header #title_frm fieldset .lang_weather {}
+header #title_frm fieldset .lang_weather .lang {
+    float: right;
+}
+header #title_frm fieldset .lang_weather .lang #lang_frm {
+    border: 2px solid #1e6cb3; background-color: #fff;
+    padding: 5px; font-size: 0.8125rem;
+}
+header #title_frm fieldset .lang_weather .lang #lang_frm option {}
+header #title_frm fieldset .lang_weather .lang button {
+    padding: 5px; font-size: 0.8125rem; font-weight: 700;
+    background-color: #1e6cb3; color: #fff;
+}
+header #title_frm fieldset .lang_weather .weather {
+    float: right; clear: both;
+}
+header #title_frm fieldset .lang_weather .weather p {
+    font-size: 0.8125rem;
+}
+header #title_frm fieldset .lang_weather .weather .current {
+    font-size: 1.5rem; font-weight: 700;
+}
